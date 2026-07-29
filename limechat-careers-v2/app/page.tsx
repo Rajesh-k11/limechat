@@ -46,10 +46,10 @@ export default function CareersHome() {
                 Join the team redefining how 300+ global D2C brands interact with millions of customers using proactive, Level 4 Conversational AI.
               </p>
 
-              <div className="flex flex-col sm:flex-row items-center gap-4">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
                 <Link
                   href="/roles"
-                  className="group relative px-8 py-4 bg-primary text-on-primary rounded-full font-label-md text-sm font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 flex items-center gap-2"
+                  className="w-full sm:w-auto justify-center group relative px-8 py-4 bg-primary text-on-primary rounded-full font-label-md text-sm font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 flex items-center gap-2 whitespace-nowrap"
                 >
                   Explore Open Positions
                   <span className="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform">
@@ -59,7 +59,7 @@ export default function CareersHome() {
 
                 <Link
                   href="/life"
-                  className="px-8 py-4 bg-pure-white text-on-surface border border-outline-variant/50 rounded-full font-label-md text-sm font-bold shadow-sm hover:bg-surface-container transition-all flex items-center gap-2"
+                  className="w-full sm:w-auto justify-center px-8 py-4 bg-pure-white text-on-surface border border-outline-variant/50 rounded-full font-label-md text-sm font-bold shadow-sm hover:bg-surface-container transition-all flex items-center gap-2 whitespace-nowrap"
                 >
                   Life at LimeChat
                   <span className="material-symbols-outlined text-lg">groups</span>

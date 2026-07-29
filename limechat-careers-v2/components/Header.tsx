@@ -70,9 +70,10 @@ export default function Header() {
           </a>
           <Link
             href="/roles"
-            className="bg-accent-lime text-surface-deep px-5 py-2.5 rounded-full font-label-md text-label-md font-bold shadow-sm hover:shadow-md hover:bg-pure-white border border-accent-lime transition-all"
+            className="bg-accent-lime text-surface-deep px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-full font-label-md text-xs sm:text-sm font-bold shadow-sm hover:shadow-md hover:bg-pure-white border border-accent-lime transition-all whitespace-nowrap shrink-0"
           >
-            View Open Roles
+            <span className="hidden sm:inline">View Open Roles</span>
+            <span className="sm:hidden">Open Roles</span>
           </Link>
 
           {/* Mobile Menu Toggle */}
