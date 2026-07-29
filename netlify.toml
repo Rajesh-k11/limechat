@@ -1,6 +1,7 @@
 [build]
+  base = "limechat-careers-v2"
   command = "npm run build"
-  publish = "out"
+  publish = "limechat-careers-v2/out"
 
 [build.environment]
   NODE_VERSION = "20.x"
